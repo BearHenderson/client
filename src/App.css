@@ -1,3 +1,42 @@
+.background-image-container {
+  background-image: url("https://images.unsplash.com/photo-1517245386807-9b4d0dd8eac1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.background-image-container h1 {
+  font-size: 3rem;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+.background-image-container p {
+  font-size: 1rem;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+.background-image-container a {
+  font-size: 1rem;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.content-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.Home-text {
+  text-align: center;
+  color: white;
+}
 .App {
   text-align: center;
 }
