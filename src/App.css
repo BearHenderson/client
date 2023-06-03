@@ -1,3 +1,25 @@
+.btn {
+  margin: 10px;
+  box-shadow: 5px 10px;
+  font-family: 'Playfair Display', serif;
+}
+.typewriter-font {
+  font-family: 'VT323', monospace;
+}
+.newspaper-font {
+  font-family: 'Lora', serif;
+}
+.cabin-font {
+  font-family: 'Cabin', sans-serif;
+}
+.libre-font {
+  font-family: 'Libre Franklin', serif;
+  font-size: medium;
+}
+.playfair-font {
+  font-family: 'Playfair Display', serif;
+  font-size:auto;
+}
 .background-image-container {
   background-image: url("https://images.unsplash.com/photo-1517245386807-9b4d0dd8eac1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80");
   background-position: center;
@@ -37,6 +59,19 @@
   text-align: center;
   color: white;
 }
+
+.container-height {
+    height: 100%; 
+}
+
+.image-container {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
 .App {
   text-align: center;
 }
