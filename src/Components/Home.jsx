@@ -32,6 +32,7 @@ const Home = () => {
               EXCUSE ME Mag mostly ISN’T about politics, but when it is, we lean far left. Also, sometimes the art has nudity, or the stories have parts that are unsuitable for kids; that’s why the cover of each issue says “FOR MATURE READERS.”</h6>
               <h6 className='playfair-font-lrg'>No pressure, but just in case you’re swinging good with the loot, here’s a button where you can make a donation to further our noble cause:</h6>
               <button type="button" className="btn btn-warning" onClick={redirectToPaypal}>Donate</button>
+              <br/>
               {/* Additional text or components */}
             </div>
           </div>
@@ -42,40 +43,40 @@ const Home = () => {
           <div className="content-inner">
             <h2 className='playfair-font'>WHO READS EXCUSE ME MAG?</h2>
             <div className="row justify-content-center">
-              <div className="col-sm-2">
+              <div className="col-sm-3">
               <a href={require("../assets/images/Joe.jpeg")} target="_blank">
-                <img src={require("../assets/images/Joe.jpeg")} alt="Joe" className="img-thumbnail" style={{ width: "400px", height: "300px" }} />
+                <img src={require("../assets/images/Joe.jpeg")} alt="Joe" className="img-thumbnail" style={{ width: "375px", height: "375px" }} />
               </a>
               <h4 className='playfair-font'>Joe O'Brien</h4>
               </div>
-              <div className="col-sm-2">
+              <div className="col-sm-3">
               <a href={require("../assets/images/Darius.jpg")} target="_blank">
-                <img src={require("../assets/images/Darius.jpg")} alt="Darius" className="img-thumbnail" style={{ width: "400px", height: "300px" }} />
+                <img src={require("../assets/images/Darius.jpg")} alt="Darius" className="img-thumbnail" style={{ width: "375px", height: "375px" }} />
               </a>
               <h4 className='playfair-font'>Darius James</h4>
               </div>
-              <div className="col-sm-2">
+              <div className="col-sm-3">
               <a href={require("../assets/images/Ina.jpg")} target="_blank">
-                <img src={require("../assets/images/Ina.jpg")} alt="Ina" className="img-thumbnail" style={{ width: "400px", height: "300px" }} />
+                <img src={require("../assets/images/Ina.jpg")} alt="Ina" className="img-thumbnail" style={{ width: "375px", height: "375px" }} />
               </a>
               <h4 className='playfair-font'>Lydia Otzko</h4>
               </div>
               <div className='row justify-content-center'>
-              <div className="col-sm-2">
+              <div className="col-sm-3">
               <a href={require("../assets/images/Barrymore.jpg")} target="_blank">
-                <img src={require("../assets/images/Barrymore.jpg")} alt="Barrymore" className="img-thumbnail" style={{ width: "400px", height: "300px" }} />
+                <img src={require("../assets/images/Barrymore.jpg")} alt="Barrymore" className="img-thumbnail" style={{ width: "375px", height: "375px" }} />
               </a>
               <h4 className='playfair-font'>Barrymore Tebbs</h4>
               </div>
-              <div className="col-sm-2">
+              <div className="col-sm-3">
               <a href={require("../assets/images/Borchardt.jpg")} target="_blank">
-                <img src={require("../assets/images/Borchardt.jpg")} alt="Borchardt" className="img-thumbnail" style={{ width: "400px", height: "300px" }} />
+                <img src={require("../assets/images/Borchardt.jpg")} alt="Borchardt" className="img-thumbnail" style={{ width: "375px", height: "375px" }} />
               </a>
               <h4 className='playfair-font'>Mark Borchardt</h4>
               </div>
-              <div className="col-sm-2">
+              <div className="col-sm-3">
               <a href={require("../assets/images/Lydia.jpeg")} target="_blank">
-                <img src={require("../assets/images/Lydia.jpeg")} alt="Lydia" className="img-thumbnail" style={{ width: "400px", height: "300px" }} />
+                <img src={require("../assets/images/Lydia.jpeg")} alt="Lydia" className="img-thumbnail" style={{ width: "375px", height: "375px" }} />
               </a>
               <h4 className='playfair-font'>Lydia Xythali</h4>
               </div>
